@@ -29,7 +29,7 @@ li {
   background-color: #332208;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -58,6 +58,7 @@ li {
   color: #fefefe;
   padding-bottom: 5px;
   border-bottom: transparent;
+  transition: all 0.5s;
 }
 .menu_link:hover {
   border-bottom: 1px solid #fefefe;
@@ -66,4 +67,123 @@ li {
   font-size: 18px;
   line-height: 21px;
   color: #fefefe;
+}
+.top {
+  background-color: #fefefe;
+  padding-bottom: 100px;
+}
+.top_heading {
+  display: flex;
+  padding: 50px 0 30px;
+}
+.top_content {
+  text-align: center;
+  padding-top: 90px;
+  width: 50%;
+}
+.top_title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0 auto 20px;
+  min-width: 455px;
+}
+.top_text {
+  font-size: 24px;
+  line-height: 28px;
+  min-width: 470px;
+  margin: 0 auto 60px;
+}
+.application-btn {
+  width: 200px;
+  height: 50px;
+  padding: 15px 18px;
+  background-color: #c5ac2d;
+  color: #fefefe;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+.application-btn:hover {
+  color: #c5ac2d;
+  background-color: #fefefe;
+  border: 1px solid #c5ac2d;
+}
+.top_slider {
+  width: 50%;
+}
+.top_slider .slick-dots {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slick-dots {
+  text-align: center;
+}
+.slick-dots button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  font-size: 0;
+  background-color: #332208;
+}
+.slick-active button {
+  width: 16px;
+  height: 16px;
+}
+.top_slider-item {
+}
+.top_slider-text {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  text-align: center;
+}
+.top_slider-text span + span {
+  padding-left: 12px;
+}
+.top_bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.top_items {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.top_item {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border: 1px solid #332208;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.top_item:hover {
+  transform: scale(1.25);
+  transition: all 0.5s;
+}
+.top_item-img {
+}
+.top_item-text {
+}
+.top_links {
+  padding-right: 80px;
+}
+.top_link {
+  color: #1b1818;
+  border-bottom: transparent;
+  border-bottom: 1px solid #1b1818;
+}
+.top_link + .top_link {
+  margin-left: 20px;
 }
